@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.365 s <<< FAILURE! - in TestSuite
+testscripts.purchaseCowboyHat.purchaseCowboyhat  Time elapsed: 19.914 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=93.0.4577.63)
+Build info: version: '4.0.0-beta-4', revision: '29f46d02dd'
+System info: host: '360NDCLP244', ip: '192.168.1.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a243ec0599e4562972a74ae3442a1a6, clickElement {id=d09e43a0-1fef-4388-91fb-d0abb86e5461}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.63, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\kanishka.j\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:55059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55059/devtoo..., se:cdpVersion: 93.0.4577.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a243ec0599e4562972a74ae3442a1a6)] -> xpath: //div[@class='accept']]
+Session ID: 9a243ec0599e4562972a74ae3442a1a6
+	at testscripts.purchaseCowboyHat.purchaseCowboyhat(purchaseCowboyHat.java:27)
+

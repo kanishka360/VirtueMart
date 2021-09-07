@@ -1,0 +1,4 @@
+# Created at 2021-09-07T11:49:28.564
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Project\Practise\VirtueMart\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
